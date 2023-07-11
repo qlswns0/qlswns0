@@ -1,33 +1,46 @@
-- 👋 안녕하세요 20202060 신문방송학과 이예준입니다.
+# Coding Beginner: Can I really do this class?
+The game's main theme is to overcome the assignments of the class.
+I tried to put in this game the emotions I felt doing this class.
 
-제가 만든 게임의 제목은 “코딩 비기너인 내가 진짜 이 수업을 들을 수 있을까?” 입니다.
-게임의 전반적인 테마는 코딩 비기너가 교수님께서 내주시는 과제를 해내는 과정이라고 보시면 될 것 같습니다. 제가 수업을 따라가며 겪은 감정을 게임 속에 녹여내려고 노력했습니다.
-왼쪽의 1번 플레이어는 코딩비기너 캐릭터를 플레이하게 되고 방향키로 WASD키를 이용합니다. 
-오른쪽의 2번 플레이어는 교수님 캐릭터를 플레이하게 되며 방향키를 이용합니다. 
+# How to Play
+Player 1 uses 'W', 'A', 'S', and 'D' to move.
+Player 2 uses the direction keys to move.
 
-게임 플레이를 하며 제가 부여한 기능들을 살펴보시겠습니다. 
-각 플레이어는 최대 3개의 스킬을 가질 수 있게 됩니다. 하지만 우선 처음에는 각 플레이어에게는 기본스킬만이 부여됩니다. 왼쪽 플레이어는 기본스킬로 Ctrl키를 이용하며, 오른쪽 플레이어는 기본스킬로 한자키를 이용합니다.
-각 플레이어가 두번째 스킬을 얻기 위해서는 상대를 1회 명중시켜야 합니다. 이렇게 한 대 맞추게 되면 레벨업이 되면서, 두번째 스킬을 쓸 수 있게 됩니다. 왼쪽 플레이어는 두번째 스킬을 사용하기 위해 Tab키를 이용하고 ‘죄송’이라는 스킬이 나가게 됩니다. 두번째 스킬은 기본 스킬보다 속도와 크기가 더 큽니다. 오른쪽 플레이어는 두번째 스킬을 사용하기 위해 따옴표 키를 사용하고 ‘과제’라는 스킬이 발사됩니다. 성능은 같습니다.
-이어서 세번째 스킬을 얻는 방법 또한 동일합니다. 한 대를 더 맞추면, 세번째 스킬을 획득하게 됩니다. 또 한번 레벨업이 되면서 왼쪽 플레이어는 세번째 스킬을 위해 Q키를 사용하고 오른쪽 플레이어는 마침표 키를 사용합니다. 
+Each player can use 3 skills at maximum. 
+At first, each player can use only basic skills which are fired by the 'Ctrl' key for P1, and the '한자' key for P2.
 
-이제 어떻게 하면 승리하게 되는지에 대하여 설명 드리겠습니다. 먼저 전체적으로 5판 3선승제로 이루어지며 라운드당 목숨은 플레이어당 5개입니다. 5번을 명중시키면 총 스코어가 기록되어 나타나며 먼저 세번 승리한 플레이어가 최종적으로 승리하게 되는 구조입니다. 
+To acquire the second skill, you have to hit the opponent once. Then your character will be upgraded.
+This time, the 'Tab' key for P1 and the ',' key for P2.
+The second skills are faster and bigger than the basic ones.
 
-코딩에 대하여 추가적인 설명을 드리겠습니다. 전반적으로 어떤 구조로 코드를 구성하였는지 말씀드리겠습니다. 원본 게임에서 추가된 주된 기능으로는 각 스킬의 제작, 레벨업 효과, 그리고 5판 3선승제입니다.
+To acquire the third skill, the method is the same.
+This time, the 'q' key for P1 and the '.' key for P2.
+The third skills are much bigger but at the same time slower.
 
-(1) 첫번째로 각 스킬들이 생성되는 과정으로는, 우선 메인 함수에서 각 스킬의 이미지를 불러와 스케일 조정을 하구요. 각 플레이어 이미지의 rect 정보를 구해놓고, 필요한 빈리스트들을 만들어 놓습니다. 그리고는 키눌림 event 발생시 스킬이미지의 xy좌표를 플레이어의 xy좌표로 지정한다음 해당 스킬의 xy좌표를 담는 빈리스트에 append합니다. 그리고는 후에 draw를 하는 함수안에서 속도를 입히고 충돌을 감지하고 마침내 스킬을 화면에 띄우게 됩니다. 모든 스킬을 같은 과정을 통해 만들었습니다. 
+# Rule to Win
+Every round each player has 5 lives.
+The player who will win 3 times first will be a winner.
 
-(2) 두번째 중심 기능으로는 레벨업 효과입니다. 레벨업시에 레벨업이미지와 사운드를 일정 시간동안 화면에 띄우기 위하여 레벨업클래스를 만들어서 life_tick 기능을 부여하였습니다. 또한 콜이젼 체크시에 맞은 플레이어의 목숨 개수에 따라서 잔여 목숨이 4개이면 첫번째 레벨업 효과, 그리고 잔여 목숨이 3개이면 두번째 레벨업 효과가 발생하도록 적용시켰습니다. 
+# Extra explanations for Coding
 
-(3) 마지막으로 5판3선승제에 관한 코딩을 설명드리겠습니다. 5라운드가 적용되는 과정을 설명드리자면, 먼저 대기 화면으로 가게하는 함수를 지정한다음, 메인 함수에서 해당 함수를 먼저 실행하고, 그 다음으로 while 무한루프를 돌리면서 두 플레이어 중 한 명이 3승을 하기 전까지는 무한루프를 계속 돌려주는 식으로 5판 3선승제를 적용시켰습니다. 3승을 하였을 시 각 플레이어의 모든 정보를 초기화시키고, break한다음 다시 main함수에 접속하게 하여 대기화면이 띄워지도록 하였습니다.
+(1) manufacture of each skill
+첫번째로 각 스킬들이 생성되는 과정으로는, 우선 메인 함수에서 각 스킬의 이미지를 불러와 스케일 조정을 하구요. 각 플레이어 이미지의 rect 정보를 구해놓고, 필요한 빈리스트들을 만들어 놓습니다. 그리고는 키눌림 event 발생시 스킬이미지의 xy좌표를 플레이어의 xy좌표로 지정한다음 해당 스킬의 xy좌표를 담는 빈리스트에 append합니다. 그리고는 후에 draw를 하는 함수안에서 속도를 입히고 충돌을 감지하고 마침내 스킬을 화면에 띄우게 됩니다. 모든 스킬을 같은 과정을 통해 만들었습니다. 
 
-이상입니다. 
-이미지와 사운드의 출처는 assets 폴더에 첨부되어 있습니다.
-게임플레이를 해보실 분은 assets 폴더를 바탕화면에 두시고 assets 폴더 안에 있는 파이썬 파일을 실행하시면 됩니다!
+(2) level up effect
+두번째 중심 기능으로는 레벨업 효과입니다. 레벨업시에 레벨업이미지와 사운드를 일정 시간동안 화면에 띄우기 위하여 레벨업클래스를 만들어서 life_tick 기능을 부여하였습니다. 또한 콜이젼 체크시에 맞은 플레이어의 목숨 개수에 따라서 잔여 목숨이 4개이면 첫번째 레벨업 효과, 그리고 잔여 목숨이 3개이면 두번째 레벨업 효과가 발생하도록 적용시켰습니다. 
 
-감사합니다.
+(3) 3 times first, winner 
+마지막으로 5판3선승제에 관한 코딩을 설명드리겠습니다. 5라운드가 적용되는 과정을 설명드리자면, 먼저 대기 화면으로 가게하는 함수를 지정한다음, 메인 함수에서 해당 함수를 먼저 실행하고, 그 다음으로 while 무한루프를 돌리면서 두 플레이어 중 한 명이 3승을 하기 전까지는 무한루프를 계속 돌려주는 식으로 5판 3선승제를 적용시켰습니다. 3승을 하였을 시 각 플레이어의 모든 정보를 초기화시키고, break한다음 다시 main함수에 접속하게 하여 대기화면이 띄워지도록 하였습니다.
 
+For playing the game, you can play by downloading the assets folder to the main screen of your computer and opening the Python file in the assets folder.
 
-- Youtube link to view the trailer of this game: https://youtu.be/Zswbo0_BqHE
+Thank you!
+
+# Citations
+The citations of assets are attached in the assets folder.
+
+# Youtube link
+https://youtu.be/Zswbo0_BqHE
 
 ![미디어 플레이어 2023-07-12 오전 3_59_39](https://github.com/qlswns0/qlswns0/assets/138393299/d88ff9cb-c992-4adf-b29e-2da51dfc072f)
 ![미디어 플레이어 2023-07-12 오전 4_03_40](https://github.com/qlswns0/qlswns0/assets/138393299/ed3446a8-3ab0-4ab6-a64b-7451dc35e5a1)
