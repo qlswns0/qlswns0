@@ -13,7 +13,7 @@ To acquire the second skill, you have to hit the opponent once. Then your charac
 This time, the 'Tab' key for P1 and the ',' key for P2.
 The second skills are faster and bigger than the basic ones.
 
-To acquire the third skill, the method is the same.
+To acquire the third skill, the method is the same, which means you have to hit him once more.
 This time, the 'q' key for P1 and the '.' key for P2.
 The third skills are much bigger but at the same time slower.
 
