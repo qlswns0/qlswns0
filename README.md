@@ -25,7 +25,8 @@
 감사합니다.
 
 이미지와 사운드의 출처는 assets 폴더에 첨부되어 있습니다.
-Youtube link: https://youtu.be/Zswbo0_BqHE
+
+- Youtube link: https://youtu.be/Zswbo0_BqHE
 
 ![미디어 플레이어 2023-07-12 오전 3_59_39](https://github.com/qlswns0/qlswns0/assets/138393299/d88ff9cb-c992-4adf-b29e-2da51dfc072f)
 ![미디어 플레이어 2023-07-12 오전 4_03_40](https://github.com/qlswns0/qlswns0/assets/138393299/ed3446a8-3ab0-4ab6-a64b-7451dc35e5a1)
