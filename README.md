@@ -1,6 +1,7 @@
 # Coding Beginner: Can I Really Do This Class?
 The game's main theme is to overcome the assignments of the class.
 I tried hard to put into this game the emotions I felt doing this class.
+To play the game, you can play by downloading the assets folder to the main screen of your computer and opening the Python file in the assets folder.
 
 # How to Play
 Player 1 uses 'W', 'A', 'S', and 'D' to move.
@@ -29,12 +30,8 @@ The player who will win 3 times first will be a winner.
 (2) level up effect:
 두번째 중심 기능으로는 레벨업 효과입니다. 레벨업시에 레벨업이미지와 사운드를 일정 시간동안 화면에 띄우기 위하여 레벨업클래스를 만들어서 life_tick 기능을 부여하였습니다. 또한 콜리젼 체크시에 공격을 당한 플레이어의 목숨 개수에 따라서 잔여 목숨이 4개이면 첫번째 레벨업 효과, 그리고 잔여 목숨이 3개이면 두번째 레벨업 효과가 발생하도록 적용시켰습니다. 
 
-(3) 3 times first, winner:
+(3) win 3 times first, winner:
 먼저 대기 화면으로 가게하는 함수를 지정한다음, 메인 함수에서 해당 함수를 먼저 실행하고, 그 다음으로 while 무한루프를 돌리면서 두 플레이어 중 한 명이 3승을 하기 전까지는 무한루프를 계속 돌려주는 식으로 5판 3선승제를 적용시켰습니다. 3승을 하였을 시 각 플레이어의 모든 정보를 초기화시키고, break한다음 다시 main함수에 접속하게 하여 대기화면이 띄워지도록 하였습니다.
-
-To play the game, you can play by downloading the assets folder to the main screen of your computer and opening the Python file in the assets folder.
-
-Thank you!
 
 # Citations
 The citations of assets are attached in the assets folder.
