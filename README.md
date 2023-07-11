@@ -24,7 +24,17 @@
 
 감사합니다.
 
+이미지와 사운드의 출처는 assets 폴더에 첨부되어 있습니다.
 Youtube link: https://youtu.be/Zswbo0_BqHE
+
+![미디어 플레이어 2023-07-12 오전 3_59_39](https://github.com/qlswns0/qlswns0/assets/138393299/d88ff9cb-c992-4adf-b29e-2da51dfc072f)
+![미디어 플레이어 2023-07-12 오전 4_03_40](https://github.com/qlswns0/qlswns0/assets/138393299/ed3446a8-3ab0-4ab6-a64b-7451dc35e5a1)
+![미디어 플레이어 2023-07-12 오전 4_01_51](https://github.com/qlswns0/qlswns0/assets/138393299/61208ab2-371e-4bc5-afa1-8f6e297eed95)
+![미디어 플레이어 2023-07-12 오전 4_02_40](https://github.com/qlswns0/qlswns0/assets/138393299/9268d849-6eba-455c-9136-d0efde67dc2b)
+![미디어 플레이어 2023-07-12 오전 4_03_19](https://github.com/qlswns0/qlswns0/assets/138393299/ece5ec54-dd5c-4eec-b1aa-419b05d1ec92)
+![미디어 플레이어 2023-07-12 오전 4_02_54](https://github.com/qlswns0/qlswns0/assets/138393299/984f324b-f1ea-4163-ab25-8bf4738f78f5)
+![미디어 플레이어 2023-07-12 오전 4_03_21](https://github.com/qlswns0/qlswns0/assets/138393299/07bc982f-cc96-401c-8c38-0ea20093006d)
+
 
 
 <!---
