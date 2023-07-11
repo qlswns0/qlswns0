@@ -1,6 +1,6 @@
 # Coding Beginner: Can I Really Do This Class?
 The game's main theme is to overcome the assignments of the class.
-I tried to put in this game the emotions I felt doing this class.
+I tried hard to put into this game the emotions I felt doing this class.
 
 # How to Play
 Player 1 uses 'W', 'A', 'S', and 'D' to move.
