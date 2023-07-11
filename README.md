@@ -5,7 +5,7 @@ I tried hard to put into this game the emotions I felt doing this class.
 
 To play the game, you can play by downloading the assets folder to the main screen of your computer and opening the Python file in the assets folder.
 
-# How to Play
+# 1. How to Play
 Player 1 uses 'W', 'A', 'S', and 'D' to move.
 Player 2 uses the direction keys to move.
 
@@ -20,12 +20,12 @@ To acquire the third skill, the method is the same, which means you have to hit 
 This time, the 'q' key for P1 and the '.' key for P2.
 The third skills are much bigger but at the same time slower.
 
-# Rule to Win
+# 2. Rule to Win
 Every round each player has 5 lives.
 
 The player who will win 3 times first will be a winner.
 
-# Explanations for Coding
+# 3. Explanations for Coding
 
 (1) manufacture of each skill:
 우선 메인 함수에서 각 스킬의 이미지를 불러와 스케일 조정을 합니다. 각 플레이어 이미지의 rect 정보를 구해놓고, 필요한 빈리스트들을 만들어 놓습니다. 그리고는 키눌림 event 발생시 스킬이미지의 xy좌표를 플레이어의 xy좌표로 지정한다음 해당 스킬의 xy좌표를 담는 빈리스트에 append합니다. 그리고는 후에 draw를 하는 함수안에서 속도를 입히고 충돌을 감지한 후 마침내 스킬을 화면에 띄우게 됩니다. 모든 스킬은 같은 과정을 통해 만들어졌습니다. 
