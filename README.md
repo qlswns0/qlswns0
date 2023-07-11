@@ -1,6 +1,8 @@
 # Coding Beginner: Can I Really Do This Class?
 The game's main theme is to overcome the assignments of the class.
+
 I tried hard to put into this game the emotions I felt doing this class.
+
 To play the game, you can play by downloading the assets folder to the main screen of your computer and opening the Python file in the assets folder.
 
 # How to Play
