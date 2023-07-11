@@ -21,12 +21,13 @@
 (3) 마지막으로 5판3선승제에 관한 코딩을 설명드리겠습니다. 5라운드가 적용되는 과정을 설명드리자면, 먼저 대기 화면으로 가게하는 함수를 지정한다음, 메인 함수에서 해당 함수를 먼저 실행하고, 그 다음으로 while 무한루프를 돌리면서 두 플레이어 중 한 명이 3승을 하기 전까지는 무한루프를 계속 돌려주는 식으로 5판 3선승제를 적용시켰습니다. 3승을 하였을 시 각 플레이어의 모든 정보를 초기화시키고, break한다음 다시 main함수에 접속하게 하여 대기화면이 띄워지도록 하였습니다.
 
 이상입니다. 
+이미지와 사운드의 출처는 assets 폴더에 첨부되어 있습니다.
+게임플레이를 해보실 분은 assets 폴더를 바탕화면에 두시고 assets 폴더 안에 있는 파이썬 파일을 실행하시면 됩니다!
 
 감사합니다.
 
-이미지와 사운드의 출처는 assets 폴더에 첨부되어 있습니다.
 
-- Youtube link: https://youtu.be/Zswbo0_BqHE
+- Youtube link to view the trailer of this game: https://youtu.be/Zswbo0_BqHE
 
 ![미디어 플레이어 2023-07-12 오전 3_59_39](https://github.com/qlswns0/qlswns0/assets/138393299/d88ff9cb-c992-4adf-b29e-2da51dfc072f)
 ![미디어 플레이어 2023-07-12 오전 4_03_40](https://github.com/qlswns0/qlswns0/assets/138393299/ed3446a8-3ab0-4ab6-a64b-7451dc35e5a1)
