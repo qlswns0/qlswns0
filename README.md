@@ -22,6 +22,7 @@ The third skills are much bigger but at the same time slower.
 
 # Rule to Win
 Every round each player has 5 lives.
+
 The player who will win 3 times first will be a winner.
 
 # Explanations for Coding
